@@ -26,7 +26,7 @@ Please review our [CODE\_OF\_CONDUCT.md](https://github.com/iu-alumni/.github/bl
 
 ## How to File an Issue
 
-1. Ensure a similar issue does not already exist by searching the [Issues](https://github.com/iu-alumni/…/issues).
+1. Ensure a similar issue does not already exist by searching the Issues tab (in respective repo)
 2. Clearly describe the goal and expected behavior.
 3. Provide reproduction steps, logs, or screenshots.
 4. Specify the project version and your environment (OS, dependency versions).
@@ -47,7 +47,6 @@ Use the issue template to make sure all details are included.
 4. Test locally:
 
    ```bash
-   # example for backend
    uvicorn app.main:app --reload
    ```
 5. Sync with `main` and resolve conflicts:
