@@ -66,7 +66,9 @@ Use the issue template to make sure all details are included.
 
 ## Setting Up Your Environment
 
-Below is an example for the **backend** (FastAPI + PostgreSQL):
+- [Instructions for the Backend repo](https://github.com/iu-alumni/iu-alumni-backend/blob/main/README.md)
+- [Instructions for the Frontend repo](https://github.com/iu-alumni/iu-alumni-frontend/blob/main/README.md)
+- [Instructions for the Mobile repo](https://github.com/iu-alumni/iu-alumni-mobile/blob/main/README.md)
 
 ```bash
 git clone https://github.com/iu-alumni/iu-alumni-backend.git
@@ -127,6 +129,8 @@ We use [Husky](https://typicode.github.io/husky/) to manage Git hooks and automa
    npx husky add .husky/pre-commit "npm run lint"
    npx husky add .husky/pre-push "npm test"
    ```
+
+More details in the respective repositories and their README.md files.
 
 ---
 
