@@ -70,17 +70,6 @@ Use the issue template to make sure all details are included.
 - [Instructions for the Frontend repo](https://github.com/iu-alumni/iu-alumni-frontend/blob/main/README.md)
 - [Instructions for the Mobile repo](https://github.com/iu-alumni/iu-alumni-mobile/blob/main/README.md)
 
-```bash
-git clone https://github.com/iu-alumni/iu-alumni-backend.git
-cd iu-alumni-backend
-python3 -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
-# set environment variables as per README
-docker-compose up -d
-```
-
-For **frontend** and **mobile**, see their respective README files.
-
 ---
 
 ## Husky and Git Hooks
