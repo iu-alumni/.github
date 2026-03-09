@@ -12,7 +12,6 @@
 | [iu-alumni-frontend](https://github.com/iu-alumni/iu-alumni-frontend) | Admin portal web app | TypeScript · Nuxt 3 · Vue 3 |
 | [iu-alumni-mobile](https://github.com/iu-alumni/iu-alumni-mobile) | Alumni mobile app | Dart · Flutter |
 | [iu-alumni-infra](https://github.com/iu-alumni/iu-alumni-infra) | Infrastructure as code | Ansible · Terraform · Docker Swarm |
-| [iu-alumni-bot](https://github.com/iu-alumni/iu-alumni-bot) | Telegram bot integration | Python |
 | [docs](https://github.com/iu-alumni/docs) | Technical & project documentation | VitePress |
 | [privacy-policy](https://github.com/iu-alumni/privacy-policy) | Privacy policy for the mobile app | — |
 
@@ -25,7 +24,6 @@ graph TD
     subgraph Clients
         MOB[📱 Flutter Mobile App]
         WEB[🖥️ Nuxt 3 Admin Portal]
-        BOT[🤖 Telegram Bot]
     end
 
     subgraph Infrastructure
@@ -43,7 +41,6 @@ graph TD
 
     MOB --> LB
     WEB --> LB
-    BOT --> API
     LB --> API
     API --> DB
     API --> CACHE
