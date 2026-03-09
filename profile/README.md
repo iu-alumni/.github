@@ -24,6 +24,7 @@ graph TD
     subgraph Clients
         MOB[📱 Flutter Mobile App]
         WEB[🖥️ Nuxt 3 Admin Portal]
+        BOT[🤖 Telegram Bot]
     end
 
     subgraph Infrastructure
@@ -40,6 +41,7 @@ graph TD
 
     MOB --> LB
     WEB --> LB
+    BOT --> API
     LB --> API
     API --> DB
 ```
