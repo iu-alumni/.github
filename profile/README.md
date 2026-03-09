@@ -36,14 +36,12 @@ graph TD
 
     subgraph Storage
         DB[(PostgreSQL)]
-        CACHE[(Redis)]
     end
 
     MOB --> LB
     WEB --> LB
     LB --> API
     API --> DB
-    API --> CACHE
 ```
 
 ---
